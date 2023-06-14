@@ -1,0 +1,27 @@
+.bienvenida {
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: bolder;
+    text-shadow: 0 0 0.5px rgb(0, 151, 81);
+}
+
+.titulo {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 0 0 5px rgb(0, 151, 81);
+}
+@media (max-width: 768px) {
+    /* Ajuste de tamaño del título para dispositivos móviles */
+    .titulo {
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Ajuste de tamaño del título para pantallas más pequeñas */
+    .titulo {
+      font-size: 30px;
+    }
+  }

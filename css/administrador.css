@@ -1,0 +1,45 @@
+.cerrar-sesion {
+  
+    background-color: rgb(0, 128, 32);
+    color: white;
+   
+    padding: 7px 13px;
+    
+  }
+
+  @media (max-width: 858px) {
+    .enlace {
+      padding-left: 20px;
+  }
+  }
+
+  .container {
+			margin-top: 40px;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+
+		.container-table {
+			margin-top: 20px;
+		}
+
+		.container-table table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+
+		.container-table th,
+		.container-table td {
+			padding: 8px;
+			border: 1px solid black;
+		}
+
+		.container-table .imagen-clear th {
+			height: 0;
+			border: none;
+		}
+
+		.container-table img {
+			max-width: 100px;
+			max-height: 100px;
+		}

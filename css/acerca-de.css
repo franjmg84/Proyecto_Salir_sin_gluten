@@ -1,0 +1,18 @@
+/* Estilos para los párrafos */
+.p {
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: bolder;
+    text-shadow: 0 0 0.5px rgb(0, 151, 81);
+}
+
+
+/* Estilos para el primer párrafo */
+.p:first-of-type {
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
